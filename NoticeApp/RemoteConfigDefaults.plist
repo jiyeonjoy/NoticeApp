@@ -10,5 +10,7 @@
 	<string>서비스 이용에 참고 부탁드립니다.</string>
 	<key>date</key>
 	<string>2021년 1월 31일(월) 00:00-03:00 (3시간)</string>
+	<key>message</key>
+	<string>message</string>
 </dict>
 </plist>
