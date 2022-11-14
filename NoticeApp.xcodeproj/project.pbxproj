@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0EE653CE7EBF74EA0B62166B /* Pods_NoticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E079B8326A9473AF1E173E24 /* Pods_NoticeApp.framework */; };
 		277EF0BD2921E25700878029 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 277EF0BC2921E25700878029 /* GoogleService-Info.plist */; };
+		277EF0C02921E81300878029 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277EF0BE2921E81300878029 /* NoticeViewController.swift */; };
+		277EF0C12921E81300878029 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277EF0BF2921E81300878029 /* NoticeViewController.xib */; };
 		90E327F4291FDFC500D5FEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E327F3291FDFC500D5FEE2 /* AppDelegate.swift */; };
 		90E327F6291FDFC500D5FEE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E327F5291FDFC500D5FEE2 /* SceneDelegate.swift */; };
 		90E327F8291FDFC500D5FEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E327F7291FDFC500D5FEE2 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		0054EF7741F6C066656A024C /* Pods-NoticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoticeApp.release.xcconfig"; path = "Target Support Files/Pods-NoticeApp/Pods-NoticeApp.release.xcconfig"; sourceTree = "<group>"; };
 		277EF0BC2921E25700878029 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		277EF0BE2921E81300878029 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		277EF0BF2921E81300878029 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		90E327F0291FDFC500D5FEE2 /* NoticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E327F3291FDFC500D5FEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E327F5291FDFC500D5FEE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				90E327FC291FDFC600D5FEE2 /* Assets.xcassets */,
 				90E327FE291FDFC600D5FEE2 /* LaunchScreen.storyboard */,
 				90E32801291FDFC600D5FEE2 /* Info.plist */,
+				277EF0BE2921E81300878029 /* NoticeViewController.swift */,
+				277EF0BF2921E81300878029 /* NoticeViewController.xib */,
 			);
 			path = NoticeApp;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277EF0C12921E81300878029 /* NoticeViewController.xib in Resources */,
 				90E32800291FDFC600D5FEE2 /* LaunchScreen.storyboard in Resources */,
 				277EF0BD2921E25700878029 /* GoogleService-Info.plist in Resources */,
 				90E327FD291FDFC600D5FEE2 /* Assets.xcassets in Resources */,
@@ -212,6 +219,7 @@
 			files = (
 				90E327F8291FDFC500D5FEE2 /* ViewController.swift in Sources */,
 				90E327F4291FDFC500D5FEE2 /* AppDelegate.swift in Sources */,
+				277EF0C02921E81300878029 /* NoticeViewController.swift in Sources */,
 				90E327F6291FDFC500D5FEE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
