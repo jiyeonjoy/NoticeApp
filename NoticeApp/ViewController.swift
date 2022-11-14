@@ -6,11 +6,19 @@
 //
 
 import UIKit
+import FirebaseRemoteConfig
 
 class ViewController: UIViewController {
 
+    var remoteConfig: RemoteConfig?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.remoteConfig = RemoteConfig.remoteConfig()
+        let settings = RemoteConfigSettings()
+        settings.minimumFetchInterval = 0
+        remoteConfig?.configSettings = settings
+        remoteConfig?.setDefaults(fromPlist: "RemoteConfigDefaults")
     }
 }
